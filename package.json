@@ -1,0 +1,28 @@
+{
+  "name": "pure-datepicker",
+  "version": "0.0.1",
+  "description": "Angular 1.5 Datepicker extending ui-bootstrap datepicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhnavein/pure-datepicker.git"
+  },
+  "typescript": {
+    "definition": "./dist/index.d.ts"
+  },
+  "author": {
+    "name": "Piotr Dabrowski @ PureDev"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "docs-serve": "cp CHANGELOG.md docs/ & mkdocs serve",
+    "docs": "cp CHANGELOG.md docs/ & mkdocs build"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "devDependencies": {},
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.2.0"
+  }
+}

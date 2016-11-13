@@ -1,0 +1,23 @@
+site_name: 'Pure Datepicker'
+site_description: 'Angular 1.5 Datepicker extending ui-bootstrap datepicker'
+site_author: 'Piotr Dąbrowski @ PureDev'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 'material'
+
+# Copyright
+copyright: 'Copyright (c) 2016 British Council'
+
+extra:
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  author:
+    github: 'yhnavein'
+
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'

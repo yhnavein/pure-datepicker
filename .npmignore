@@ -1,0 +1,12 @@
+node_modules/
+*.log
+*.tgz
+
+tsconfig.json
+tslint.json
+typings.json
+typings
+dist/test
+test/
+docs/
+site/
